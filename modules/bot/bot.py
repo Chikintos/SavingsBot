@@ -35,7 +35,7 @@ def start(message):
 @bot.message_handler(commands=['help'])
 def help(message):
     bot.send_message(
-        message.chat.id, "Список доступных команд:\n/start - начать диалог\n/help - отобразить список команд")
+        message.chat.id, "Список доступних команд:\n/start - почати дiалог\n")
 
 
 # Handle the "🤚🏻 Stop Action" button
