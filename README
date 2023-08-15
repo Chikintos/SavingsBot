@@ -1,13 +1,13 @@
 Launching Instructions in English:
 
 1. Ensure that you have all the libraries and frameworks listed in the '/requirements.txt' file.
-2. Enter your bot`s token into the 'TELEGRAM_BOT_TOKEN' variable in the 'modules/.env' file.
+2. Enter your bot`s token into the 'TELEGRAM_BOT_TOKEN' variable in the '/modules/.env' file.
 3. Start the bot by running the file located at '/modules/bot/bot.py'.
 4. Start the Django server by executing the command 'python manage.py runserver' within the '/savingsBot' path.
 ---------------------------------------------------------------------------------------
 Опис запуску програми українською:
 
 1. Переконайтесь,що у вас наявні всі бібліотеки та фреймворк з файлу '/requirements.txt'
-2. Впишіть в файл 'modules/.env' токен вашого бота в змінну 'TELEGRAM_BOT_TOKEN'
+2. Впишіть в файл '/modules/.env' токен вашого бота в змінну 'TELEGRAM_BOT_TOKEN'
 3. Запустіть бота використовуючи файл за шляхом '/modules/bot/bot.py'
 4. Запустіть django-сервер виконавши команду 'python manage.py runserver' за шляхом '/savingsBot' 
